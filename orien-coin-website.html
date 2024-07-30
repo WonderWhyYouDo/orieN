@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>orieN - The Backwards Dog</title>
+    <style>
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0px); }
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(-45deg, #000000, #1a1a1a, #333333, #1a1a1a);
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
+            color: #FFD700;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        h1 {
+            font-size: 4em;
+            margin-bottom: 10px;
+            text-shadow: 0 0 10px #FFD700, 0 0 20px #FFD700, 0 0 30px #FFD700;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        .slogan {
+            font-size: 1.5em;
+            font-style: italic;
+            margin-bottom: 20px;
+            opacity: 0.8;
+        }
+
+        .content {
+            background-color: rgba(255, 215, 0, 0.1);
+            border-radius: 15px;
+            padding: 30px;
+            margin-top: 20px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .content:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(45deg, #FFD700, #FFA500);
+            color: #000000;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            margin-top: 30px;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .cta-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.6);
+        }
+
+        .dog-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin: 20px auto;
+            overflow: hidden;
+            border: 4px solid #FFD700;
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.6);
+            animation: float 4s ease-in-out infinite;
+        }
+
+        .dog-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 40px;
+        }
+
+        .feature {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(255, 215, 0, 0.1);
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .feature:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .feature-icon {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .social-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .social-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(45deg, #FFD700, #FFA500);
+            color: #000000;
+            text-decoration: none;
+            border-radius: 50%;
+            font-size: 24px;
+            transition: all 0.3s ease;
+        }
+
+        .social-button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.6);
+        }
+
+        .social-button svg {
+            width: 30px;
+            height: 30px;
+            fill: #000000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>orieN</h1>
+            <p class="slogan">"Neiro's PvP has the market flipped backwards!"</p>
+            <div class="dog-image">
+                <img src="orienlogo.jpg" alt="orieN the dog">
+            </div>
+        </header>
+        <div class="content">
+            <h2>Welcome to orieN</h2>
+            <p>Get ready for a wild ride with orieN - where the cabal vs community PvP isn't just a feature, it's the reason Neiro flipped backwards!</p>
+            <p>In the intense battle between the shadowy cabal and the vibrant community, Neiro got so excited that he did a backflip and landed... well, backwards. And just like that, Orien was born!</p>
+            <p>Why orieN, you ask? Well, picture this: a group of developers were brainstorming names for their new meme coin. They wanted something unique, something that captured the essence of their topsy-turvy crypto adventure. As they were discussing, one of them spotted Neiro (yes, THE Neiro) chasing his tail so hard that he flipped upside down. In that moment of canine acrobatics, inspiration struck!</p>
+            <p>"What if we name it after Neiro, but... backwards?" one dev suggested, his eyes gleaming with meme potential.</p>
+            <p>And so, orieN was created - the backwards dog for a backwards world. Because in crypto, sometimes the only way forward is to go backwards!</p>
+            <p>Join the pack and experience the gold rush of the century. With orieN, even your gains will be backwards (but in a good way)!</p>
+            <a href="#" class="cta-button">Buy orieN Now!</a>
+        </div>
+        <div class="social-buttons">
+            <a href="https://t.me/OrienOnSolana" class="social-button" title="Telegram">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.161c-.18.766-.656 3.447-1.25 6.51-.177.893-.354 1.785-.531 2.678-.243 1.232-.446 2.277-.636 3.132-.098.438-.179.792-.242 1.063-.064.271-.121.439-.171.503a.73.73 0 01-.305.164.87.87 0 01-.333.034c-.234-.015-.421-.109-.563-.281-.14-.172-.269-.453-.386-.844-.234-.781-1.258-4.125-1.876-6.136l-.066-.213c-.389-1.268-.74-2.412-1.054-3.432-.313-1.021-.546-1.771-.699-2.25-.154-.48-.279-.822-.375-1.026-.096-.205-.193-.335-.289-.391-.096-.055-.211-.083-.344-.083-.234 0-.445.055-.633.164-.188.109-.332.242-.433.398-.1.156-.174.324-.219.503-.045.181-.068.349-.068.505v.217c0 .031.002.066.006.104.004.037.006.073.006.107.004.031.008.064.012.098.004.033.008.063.012.092.144.673.32 1.455.528 2.344.208.89.405 1.705.59 2.444l.07.274c.267 1.074.499 2.015.695 2.821.197.807.353 1.427.469 1.858.116.432.195.697.237.795.043.099.062.149.055.149.012 0 .006.003-.018.009a.24.24 0 01-.049.003.163.163 0 01-.073-.003c-.016-.004-.037-.015-.062-.031a.518.518 0 01-.104-.077.876.876 0 01-.098-.101 1.14 1.14 0 01-.098-.131 1.737 1.737 0 01-.104-.18 3.716 3.716 0 01-.128-.294 20.34 20.34 0 01-.177-.544l-.213-.708c-.136-.453-.262-.889-.378-1.308-.113-.419-.218-.814-.311-1.183l-.055-.216a83.146 83.146 0 01-.905-3.734c-.272-1.18-.505-2.2-.7-3.062-.04-.182-.090-.35-.153-.505a1.422 1.422 0 00-.238-.398.911.911 0 00-.366-.26 1.343 1.343 0 00-.524-.095c-.335 0-.633.052-.893.155-.26.104-.474.226-.642.368-.168.141-.298.282-.39.422-.092.14-.169.248-.231.325-.02.025-.036.04-.048.043-.013.004-.025-.009-.037-.037-.012-.029-.018-.096-.018-.201 0-.182.036-.365.109-.55.073-.186.192-.357.359-.516.167-.158.381-.289.642-.391a2.47 2.47 0 01.923-.152c.363 0 .65.055.862.167.213.11.37.232.472.367.102.134.171.261.207.379.036.119.067.208.092.269l.085.231.085-.231.154-.42.213-.575.238-.642.232-.617c.065-.171.126-.336.183-.496.057-.16.124-.309.201-.444a1.534 1.534 0 01.293-.38c.116-.112.261-.201.433-.269a1.76 1.76 0 01.636-.101c.322 0 .574.058.754.174.18.115.304.257.372.422.067.166.098.339.092.52-.007.18-.022.335-.048.465l-.006.02z"/>
+                </svg>
+            </a>
+            <a href="https://dexscreener.com/" class="social-button" title="DexScreener">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/>
+                    <path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zm0 8c-1.65 0-3-1.35-3-3s1.35-3 3-3 3 1.35 3 3-1.35 3-3 3z"/>
+                </svg>
+            </a>
+            <a href="https://x.com/" class="social-button" title="Twitter">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                </svg>
+            </a>
+        </div>
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon">🚀</div>
+                <h3>Rocket Fuel</h3>
+                <p>Blast off to the moon beyond any influencer!</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">⚔️</div>
+                <h3>Backwards PvP</h3>
+                <p>Experience battles like never before!</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🐾</div>
+                <h3>Paw-some Community</h3>
+                <p>Join a vibrant pack of orieN lovers!</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+</antArtifact
